@@ -11,11 +11,15 @@ e esta sendo desenvolvido com a intenção de ajudar minha mae que é agente com
 + React ou Vue
 ```
 
-imagens de cadastros manuais
-- cadastro domiciliar
-<img src="">
-- cadastro individual
-<img src="">
+- imagens de cadastros manuais
+cadastro domiciliar
+<img src="./img/individual-1.png">
+cadastro domiciliar costas
+<img src="./img/individual-2.png">
+cadastro individual
+<img src="./img/domiciliar-1.png">
+cadastro individual costas
+<img src="./img/domiciliar-2.png">
 
 mas alguns pontos sao importantes de se resaltar que são
 - [] sera feito crude - cadastro individual
