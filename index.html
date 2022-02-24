@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cadastro Individual</title>
+</head>
+<body>
+    <header >
+        <nav class="flex jc-space-b al-center">
+            <div class="logo">
+                <img src="" alt="Saude">
+            </div>
+
+            <div>
+                <h1>Cadastro Individual</h1>
+            </div>
+
+            <div class="data">
+                <p>Data</p>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#">
+            <div class="cns-profissional box-border-radius flex">
+                <label for="cns-profissional">CNS do profissional</label>
+                <input type="text" name="cns-profissional" id="cns-profissional">
+                <label for="cbo">CBO</label>
+                <input type="text" name="cbo">
+                <label for="ine">INE</label>
+                <input type="text" name="ine" id="ine">
+                <label for="data">Data</label>
+                <input type="text" name="data" id="data">
+            </div>
+
+            <div class="identificacao-usuario box-border-radius">
+                <div>
+                    <div class="box-border">
+                        <label for="cns-cidadadao">CNS do Cidadão</label>
+                        <input type="text" name="cns-cidadadao" id="cns-cidadadao">
+                    </div>
+                    <div class="box-border">
+                    
+                        <p>Cidadao é responsavel pela Familia</p>
+                        <div>
+                            <label for="cidadao-familia-sim">Sim</label>
+                            <input type="radio" name="sim" id="cidadao-familia-sim">
+                        </div>
+                        <div>
+                            <label for="cidadao-familia-nao">Não</label>
+                            <input type="radio" name="nao" id="cidadao-familia-nao">
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="box-border">
+                        <label for="cns-resposavel-familiar">CNS do Resposavel da Familiar</label>
+                        <input type="text" name="cns-resposavel-familiar" id="cns-resposavel-familiar">
+                    </div>
+
+                    <div class="box-border">
+                        <p>Micro Área</p>
+                        <div>
+                            <input type="text">
+                            <input type="checkbox" name="FA" id="FA">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-border">
+                    <label for="nome-completo">Nome Completo:</label>
+                    <input type="text" name="nome-completo" id="nome-completo">
+                </div>
+
+                <div class="box-border">
+                    <label for="nome-completo">Nome Social:</label>
+                    <input type="text" name="nome-social" id="nome-social">
+                </div>
+
+                <div class="box-border flex">
+                    <label for="raca-cor">Nome Completo:</label>
+                    <input type="radio" name="branca" > 
+                    <p>Branca</p>
+                    <input type="radio" name="preta" > 
+                    <p>Preta</p>
+                    <input type="radio" name="parda">
+                    <p>Parda</p>
+                    <input type="radio" name="amarela">
+                    <p>Amarela</p>
+                    <input type="radio" name="indigena">
+                    <p>Indigena</p>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

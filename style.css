@@ -1,0 +1,23 @@
+.box-border-radius{
+    border: 1px solid gray; 
+    border-radius: 0.5rem;
+    margin: 10px 0;
+    padding: 10px; 
+}
+.box-border{
+    border: 1px solid gray; 
+    margin: 10px 0;
+    padding: 10px; 
+}
+
+.flex{
+    display: flex;
+}
+
+.jc-space-b{
+    justify-content: space-between;   
+}
+
+.al-center{
+    align-items: center;
+}
